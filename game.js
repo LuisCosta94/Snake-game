@@ -9,7 +9,7 @@ const gameBoard = document.getElementById("game-board");
 function main(currentTime) {
     if (gameOver) {
     if (confirm('You lost. Press Ok to Restart')) {
-        window.location = '/Snake-game/'
+        window.location.href = 'https://luiscosta94.github.io/Snake-game/'
     }
     return 
 }
